@@ -1,6 +1,6 @@
 # 使用Ionic 2搭建移动APP
 
-![](/imgs/cover.png)
+![封面](/imgs/cover.png)
 
 工作日志：
 
