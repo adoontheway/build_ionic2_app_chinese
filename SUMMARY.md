@@ -19,8 +19,8 @@
 * [项目：快捷列表](xiang-mu-ff1a-kuai-jie-lie-biao.md)
 * [-- 第一课：介绍](-di-yi-ke-ff1a-jie-shao.md)
 * [-- 第二课：准备工作](-di-er-ke-ff1a-zhun-bei-gong-zuo.md)
-* 在App Module里面添加 页面 & 服务
-* 添加需要的平台
+* [-- 在App Module里面添加 页面 & 服务](-zai-app-module-li-mian-tian-jia-ye-mian-and-fu-wu.md)
+* [添加需要的平台](tian-jia-xu-yao-de-ping-tai.md)
 * 第三课：基本布局
 * 第四课：数据模型和Observable
 * 第五课：创建检查列表与列表项
