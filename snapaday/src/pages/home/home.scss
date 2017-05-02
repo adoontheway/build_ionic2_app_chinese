@@ -1,0 +1,17 @@
+page-home {
+    .scroll-content {
+        background-color: #222222;
+    }
+    .logo {
+        max-height: 39px;
+    }
+    .list-photo {
+        width: 100%;
+        height: auto;
+    }
+    ion-badge {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+}

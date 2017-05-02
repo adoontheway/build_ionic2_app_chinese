@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      <img src="assets/images/logo.png"/>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addChecklist()">
+        <ion-icon name="add-circle">
+        </ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-list no-lines>
+    <ion-item-sliding *ngFor="let checklist of checklists">
+      <button ion-item (click)="viewChecklist(checklist)" class="home-item">
+        {{checklist.title}}
+        <span class="secondary-detail">{{checklist.items.length}} items, created at {{checklist.createdDate}}</span>
+      </button>
+      <ion-item-options>
+        <button ion-button icon-only color="light" (click)="renameChecklist(checklist)">
+          <ion-icon name="clipboard">
+          </ion-icon>
+          Edit
+        </button>
+        <button ion-button icon-only color="danger" (click)="removeCheckList(checklist)">
+          <ion-icon name="trash"></ion-icon>
+          Delete
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,51 @@
+<!--
+  Generated template for the MyDetails page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>
+      <img src="assets/images/logo.png" class="logo"/>
+    </ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      My Details
+    </ion-card-header>
+    <ion-card-content>
+      Update this form with your details so you have an easy reference for later.
+    </ion-card-content>
+  </ion-card>
+  <ion-list no-lines>
+    <form [formGroup]="myDetailsForm" (change)="saveForm()">
+      <ion-item>
+        <ion-label stacked>Car Registration</ion-label>
+        <ion-input type="text" formControlName="carRegistration"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Trailer Registration</ion-label>
+        <ion-input type="text" formControlName="trailerRegistration"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Trailer Dimensions</ion-label>
+        <ion-input type="text" formControlName="trailerDimensions"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Phone Number</ion-label>
+        <ion-input type="text" formControlName="phoneNumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Notes</ion-label>
+        <ion-input type="text" formControlName="notes"></ion-input>
+      </ion-item>
+    </form>
+  </ion-list>
+</ion-content>

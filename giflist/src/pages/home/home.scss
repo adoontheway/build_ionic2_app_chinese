@@ -1,0 +1,32 @@
+page-home {
+    ion-item {
+        background-color: #000;
+        position: relative;
+    }
+    ion-item .video-loader{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 25px;
+        height: 25px;
+    }
+    ion-list-header {
+        background-color: #fff;
+    }
+    ion-label {
+        margin: 0px !important;
+    }
+    ion-list {
+        margin: 0px !important;
+    }
+    ion-item-content, .item-inner, .item {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center;
+    }
+    video {
+        max-width: 100%;
+        height: auto;
+        background-color: #000;
+    }
+}
