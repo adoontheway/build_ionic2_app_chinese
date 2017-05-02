@@ -16,7 +16,7 @@ Node Version:v6.9.4
 ```
 
 ```
-https://github.com/AdoBeatTheWorld/build_ionic2_app_chinese
+https://github.com/AdoBeatTheWorld/build_ionic2_app_chinese/source_code
 ```
 
 
