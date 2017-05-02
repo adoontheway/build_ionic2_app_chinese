@@ -4,12 +4,12 @@
 * [目录](chapter1.md)
 * [Ionic 2 基础](ionic-2-ji-chu.md)
 * [-- 第一课：生成一个Ionic2应用](di-yi-ke-ff1a-sheng-cheng-yi-ge-ionic2-ying-yong.md)
-* -- 第二课：剖析Ionic2项目
-* -- 第三课：Ionic CLI命令
-* -- 第四课：装饰器
-* -- 第五课：类
-* -- 第六课：模块
-* -- 第七课：自定义样式和主题
+* [-- 第二课：剖析Ionic2项目](-di-er-ke-ff1a-pou-xi-ionic2-xiang-mu.md)
+* [-- 第三课：Ionic CLI命令](-di-san-ke-ff1a-ionic-cli-ming-ling.md)
+* [-- 第四课：装饰器](-di-si-ke-ff1a-zhuang-shi-qi.md)
+* [-- 第五课：类](-di-wu-ke-ff1a-lei.md)
+* [-- 第六课：模块](-di-liu-ke-ff1a-mo-kuai.md)
+* [-- 第七课：自定义样式和主题](-di-qi-ke-ff1a-zi-ding-yi-yang-shi-he-zhu-ti.md)
 * -- 第八课：导航
 * -- 第九课：用户输入
 * [-- 第十课：保存数据](di-shi-ke-ff1a-bao-cun-shu-ju.md)
