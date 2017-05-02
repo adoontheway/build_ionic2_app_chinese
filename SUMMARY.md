@@ -11,7 +11,7 @@
 * [-- 第六课：模块](-di-liu-ke-ff1a-mo-kuai.md)
 * [-- 第七课：自定义样式和主题](-di-qi-ke-ff1a-zi-ding-yi-yang-shi-he-zhu-ti.md)
 * [-- 第八课：导航](-di-ba-ke-ff1a-dao-hang.md)
-* -- 第九课：用户输入
+* [-- 第九课：用户输入](-di-jiu-ke-ff1a-yong-hu-shu-ru.md)
 * [-- 第十课：保存数据](di-shi-ke-ff1a-bao-cun-shu-ju.md)
 * -- 第十一课：获取数据，Observable和Promise
 * -- 第十二课：本地功能
