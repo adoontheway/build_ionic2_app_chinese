@@ -2,22 +2,22 @@
 
 * [封面](README.md)
 * [目录](chapter1.md)
-* Ionic 2 基础
-* [第一课：生成一个Ionic2应用](di-yi-ke-ff1a-sheng-cheng-yi-ge-ionic2-ying-yong.md)
-* 第二课：剖析Ionic2项目
-* 第三课：Ionic CLI命令
-* 第四课：装饰器
-* 第五课：类
-* 第六课：模块
-* 第七课：风格化和自定义主题
-* 第八课：导航
-* 第九课：用户输入
-* 第十课：保存数据
-* 第十一课：获取数据，Observable和Promise
-* 第十二课：本地功能
+* [Ionic 2 基础](ionic-2-ji-chu.md)
+* [-- 第一课：生成一个Ionic2应用](di-yi-ke-ff1a-sheng-cheng-yi-ge-ionic2-ying-yong.md)
+* -- 第二课：剖析Ionic2项目
+* -- 第三课：Ionic CLI命令
+* -- 第四课：装饰器
+* -- 第五课：类
+* -- 第六课：模块
+* -- 第七课：自定义样式和主题
+* -- 第八课：导航
+* -- 第九课：用户输入
+* [-- 第十课：保存数据](di-shi-ke-ff1a-bao-cun-shu-ju.md)
+* -- 第十一课：获取数据，Observable和Promise
+* -- 第十二课：本地功能
 * 项目：快捷列表
-* 第一课：介绍
-* 第二课：准备工作
+* -- 第一课：介绍
+* -- 第二课：准备工作
 * 在App Module里面添加 页面 & 服务
 * 添加需要的平台
 * 第三课：基本布局
@@ -47,4 +47,34 @@
 * 结论
 * 项目：露营伴侣（Camper Mate）
 * 第一课：介绍
+* 第二课：准备工作
+* 往App Module里面添加页面与服务
+* 第三课：新建一个标签页布局
+* 第四课：用户输入和表单
+* 第五课：实现Google地图和地理定位
+* 第六课：保存和取回数据
+* 第七课：重用组件
+* 第八课：风格化
+* 结论
+* 项目：露营聊天软件（Camper Chat）
+* 第一课：介绍
+* 第二课：准备工作
+* 将页面和服务添加到App Module
+* 第三课：登录页面和滑动菜单布局
+* 第四课：使用Facebook做授权验证
+* 第五课：创建信息和导航
+* 第六课：本地和远程PouchDB和云端后台（Cloudant，云端？）
+* 第七课：风格化与动画
+* 结论
+* [测试 & 调试](ce-shi-and-diao-shi.md)
+* [-- 测试 & 调试](-ce-shi-and-diao-shi.md)
+* 构建与提交
+* -- 准备素材
+* -- 在Mac或者PC上为iOS应用签名
+* -- 在Mac或者PC上为Android应用签名
+* -- 使用PhoneGap构建程序构建iOS和Android（除MAC外）
+* -- 提交到Apple App Store
+* -- 提交到Google Play
+* -- 在App商店上进行更新
+* 谢谢！
 
