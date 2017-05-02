@@ -2,6 +2,7 @@
 
 * [封面](README.md)
 * [目录](chapter1.md)
+* [译者注](yi-zhe-zhu.md)
 * [Ionic 2 基础](ionic-2-ji-chu.md)
 * [-- 第一课：生成一个Ionic2应用](di-yi-ke-ff1a-sheng-cheng-yi-ge-ionic2-ying-yong.md)
 * [-- 第二课：剖析Ionic2项目](-di-er-ke-ff1a-pou-xi-ionic2-xiang-mu.md)
@@ -77,5 +78,5 @@
 * -- 提交到Google Play
 * -- 在App商店上进行更新
 * 谢谢！
-* [译者注](yi-zhe-zhu.md)
+
 
