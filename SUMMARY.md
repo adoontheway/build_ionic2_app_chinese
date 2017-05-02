@@ -22,7 +22,7 @@
 * [-- 在App Module里面添加 页面 & 服务](-zai-app-module-li-mian-tian-jia-ye-mian-and-fu-wu.md)
 * [-- 添加需要的平台](tian-jia-xu-yao-de-ping-tai.md)
 * [-- 第三课：基本布局](di-san-ke-ff1a-ji-ben-bu-ju.md)
-* 第四课：数据模型和Observable
+* [-- 第四课：数据模型和Observable](di-si-ke-ff1a-shu-ju-mo-xing-he-observable.md)
 * 第五课：创建检查列表与列表项
 * 第六课：保存和加载数据
 * 第七课：制作引导滑页与主题
