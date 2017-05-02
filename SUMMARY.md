@@ -18,7 +18,7 @@
 * [-- 第十二课：本地功能](-di-shi-er-ke-ff1a-ben-di-gong-neng.md)
 * [项目：快捷列表](xiang-mu-ff1a-kuai-jie-lie-biao.md)
 * [-- 第一课：介绍](-di-yi-ke-ff1a-jie-shao.md)
-* -- 第二课：准备工作
+* [-- 第二课：准备工作](-di-er-ke-ff1a-zhun-bei-gong-zuo.md)
 * 在App Module里面添加 页面 & 服务
 * 添加需要的平台
 * 第三课：基本布局
@@ -78,5 +78,4 @@
 * -- 提交到Google Play
 * -- 在App商店上进行更新
 * 谢谢！
-
 
