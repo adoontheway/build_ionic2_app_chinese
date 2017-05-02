@@ -77,4 +77,5 @@
 * -- 提交到Google Play
 * -- 在App商店上进行更新
 * 谢谢！
+* [译者注](yi-zhe-zhu.md)
 
