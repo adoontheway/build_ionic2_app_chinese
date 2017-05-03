@@ -17,4 +17,4 @@ Node Version:v6.9.4
 
 译者当前学习完后的可用代码在此，仅限与代码部分：
 
-[source_code:ionic v3.1.1](https://github.com/AdoBeatTheWorld/build_ionic2_app_chinese/source_code)
+[source_code:ionic v3.1.1](https://github.com/AdoBeatTheWorld/build_ionic2_app_chinese/tree/master/source_code)
