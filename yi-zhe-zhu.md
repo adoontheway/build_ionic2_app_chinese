@@ -11,17 +11,10 @@ Node Version:v6.9.4
 
 ```
 
-```
-所有可用核心代码可在github.com上找到：
-```
+当前版本与作者成书版本有所不同，
+例如作者成书的时候plugin皆以new关键字新建实例来使用，而译者学习的时候使用的版本则是以service的方式直接注入到需要用到类的constructor中去使用；  
+又如，所有的native api都已分包，具体可以参考官方文档用法。  
 
-```
-https://github.com/AdoBeatTheWorld/build_ionic2_app_chinese/source_code
-```
+译者当前学习完后的可用代码在此，仅限与代码部分：
 
-
-
-
-
-
-
+[source_code:ionic v3.1.1](https://github.com/AdoBeatTheWorld/build_ionic2_app_chinese/source_code)
