@@ -1,7 +1,7 @@
 # Summary
 
 * [封面](README.md)
-* [目录](chapter1.md)
+* [介绍](0.md)
 * [译者注](yi-zhe-zhu.md)
 * [Ionic 2 基础](chapter1/ionic2basic.md)
 * [-- 第一课：生成一个Ionic2应用](chapter1/1.1.md)
