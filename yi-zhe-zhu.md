@@ -26,6 +26,7 @@ Node Version:v6.9.4
 * feature：特性
 * item：条目，列表项
 * provider：提供者
+* property,attribute：属性（很难区分）
 
 译者当前学习完后的可用代码在此，仅限与代码部分：
 
