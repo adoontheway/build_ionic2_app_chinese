@@ -27,6 +27,9 @@ Node Version:v6.9.4
 * item：条目，列表项
 * provider：提供者
 * property,attribute：属性（很难区分）
+* helper：助手，助理
+* instance：实例
+* object：对象
 
 译者当前学习完后的可用代码在此，仅限与代码部分：
 
