@@ -1,4 +1,4 @@
-# 使用Ionic 2搭建移动APP
+# 使用Ionic 2制作移动APP
 
 ![封面](/imgs/cover.png)
 
