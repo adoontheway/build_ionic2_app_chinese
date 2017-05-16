@@ -25,7 +25,7 @@
 * [-- 第四课：数据模型和Observable](chapter2/2.4.md)
 * [-- 第五课：创建检查列表与列表项](chapter2/2.5.md)
 * [-- 第六课：保存和加载数据](chapter2/2.6.md)
-* [-- 第七课：制作引导滑页与主题](chapter2/2.7.md)
+* [-- 第七课：制作引导滑页与定制主题](chapter2/2.7.md)
 * [-- 结论](chapter2/2.8.md)
 * [项目：Giflist](chapter3/3.0.md)
 * [-- 第一课：介绍](chapter3/3.1.md)
