@@ -20,7 +20,7 @@ Node Version:v6.9.4
 * handler 操作器（由于昨天读文章看到一般翻译为：句柄，所以才会有这里的名词约定）
 * method：方法
 * function：函数
-* native：本地
+* native：本地，从3.4开始翻译为【本机】，前面的翻译有空在核对
 * local：本地（会有备注和上面的进行区分）
 * functionality：功能
 * feature：特性
