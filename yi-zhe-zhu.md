@@ -11,8 +11,81 @@ Node Version:v6.9.4
 
 ```
 
-当前版本与作者成书版本有所不同，
+当前版本与作者成书版本有所不同。  
 例如作者成书的时候plugin皆以new关键字新建实例来使用，而译者学习的时候使用的版本则是以service的方式直接注入到需要用到类的constructor中去使用；  
+例如，以下代码来自[-- 第七课：整合本地通知与社交分享](chapter4/4.8.md)：
+```typescript
+import { Component } from '@angular/core';
+import { Platform } from 'ionic-angular';
+import { HomePage } from '../pages/home/home';
+import { LocalNotifications } from 'ionic-native';
+
+@Component({
+    template: `<ion-nav [root]="rootPage"></ion-nav>`
+})
+export class MyApp {
+    rootPage = HomePage;
+
+    constructor(platform: Platform) {
+        platform.ready().then(() => {
+            if(platform.is('cordova')){
+                LocalNotifications.isScheduled(1).then( (scheduled) => {
+                    if(!scheduled){
+                        let firstNotificationTime = new Date();
+                        firstNotificationTime.setHours(firstNotificationTime.getHours()+24);
+
+                        LocalNotifications.schedule({
+                            id: 1,
+                            title: 'Snapaday',
+                            text: 'Have you taken your snap today?',
+                            at: firstNotificationTime,
+                            every: 'day'
+                        });
+                    }
+                });
+            }
+        });
+    }
+}
+```
+但是译者使用的最新版本里面应该是这样去用的：
+```typescript
+import { Component } from '@angular/core';
+import { Platform } from 'ionic-angular';
+import { HomePage } from '../pages/home/home';
+import { LocalNotifications } from 'ionic-native';
+
+@Component({
+    template: `<ion-nav [root]="rootPage"></ion-nav>`
+})
+export class MyApp {
+    rootPage = HomePage;
+
+    constructor(platform: Platform,public localNotification:LocalNotification) {
+        platform.ready().then(() => {
+            if(platform.is('cordova')){
+                this.localNotification.isScheduled(1).then( (scheduled) => {
+                    if(!scheduled){
+                        let firstNotificationTime = new Date();
+                        firstNotificationTime.setHours(firstNotificationTime.getHours()+24);
+
+                        this.localNotification.schedule({
+                            id: 1,
+                            title: 'Snapaday',
+                            text: 'Have you taken your snap today?',
+                            at: firstNotificationTime,
+                            every: 'day'
+                        });
+                    }
+                });
+            }
+        });
+    }
+}
+```
+注意LocalNotification的使用方式。  
+
+  
 又如，所有的native api都已分包，具体可以参考官方文档用法。  
   
 用到的一些名词：（更新与2017/5/15）
