@@ -67,7 +67,7 @@
 * [-- 第六课：本地和远程PouchDB和Cloudant后台](chapter6/6.7.md)
 * [-- 第七课：自定义样式与动画](chapter6/6.8.md)
 * [-- 结论](chapter6/6.9.md)
-* 测试 & 调试
+* [第八章：测试&调试](chapers7/7.0.md)
 * [-- 测试 & 调试](-ce-shi-and-diao-shi.md)
 * 构建与提交
 * [-- 准备素材](chapter5/5.0.md)
