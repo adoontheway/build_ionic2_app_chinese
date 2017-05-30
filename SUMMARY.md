@@ -64,7 +64,7 @@
 * [-- 第三课：登录页面和滑动菜单布局](chapter6/6.4.md)
 * [-- 第四课：使用Facebook做授权验证](chapter6/6.5.md)
 * [-- 第五课：创建信息和导航](chapter6/6.6.md)
-* [-- 第六课：本地和远程PouchDB和云端后台（Cloudant，云端？）](chapter6/6.7.md)
+* [-- 第六课：本地和远程PouchDB和Cloudant后台](chapter6/6.7.md)
 * [-- 第七课：自定义样式与动画](chapter6/6.8.md)
 * [-- 结论](chapter6/6.9.md)
 * 测试 & 调试
