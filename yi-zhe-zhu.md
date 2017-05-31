@@ -53,7 +53,7 @@ export class MyApp {
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { HomePage } from '../pages/home/home';
-import { LocalNotifications } from 'ionic-native';
+import { LocalNotifications } from '@ionic-native/local-notifications';
 
 @Component({
     template: `<ion-nav [root]="rootPage"></ion-nav>`
@@ -83,7 +83,7 @@ export class MyApp {
     }
 }
 ```
-注意LocalNotification的使用方式。  
+注意LocalNotification的使用方式以及导入方式。  
 
   
 又如，所有的native api都已分包，具体可以参考官方文档用法。  
@@ -103,7 +103,9 @@ export class MyApp {
 * helper：助手，助理
 * instance：实例
 * object：对象
+* build：构建
 * subscribe：订阅（针对Observable）
+* splash screen：闪屏，启动画面（有更好的翻译请告诉我）
 
 译者当前学习完后的可用代码在此，仅限与代码部分：
 
