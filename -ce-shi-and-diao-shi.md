@@ -76,4 +76,18 @@ ionic plugin ls
 platform.ready().then(() => {
 });
 ```
-那么肯定是不正常工作的。
+那么肯定是不正常工作的。最后，如果你用尽所有办法依然无法工作的情况下，你可以试着移除插件：
+```shell
+ionic plugin rm [plugin name]
+```
+然后重新添加插件：
+```shell
+ionic plugin add [plugin name]
+```
+调试程序是一个苦难且令人沮丧的任务，特别是在真机上调试的时候，但是随着开发经验的增加，你就更容易感觉到问题出现在哪里，开发流程会越来越简单。如果你卡在一个错误上的话，可以随时去[Ionic 论坛](https://forum.ionicframework.com/)求助，只要尽量详细提供错误信息以及你尝试过的方法。  
+  
+## 通过GapDebug安装应用
+  
+如果你是使用PhoneGap构建的，并且有*.ipa*或者*.apk*文件那么你就可以使用[GapDebug](https://www.genuitec.com/products/gapdebug/)对他们进行测试。有很多方法可以安装他们 -- 可以用iTunes来安装 .ipa 文件或者你可以使用**adb**来安装 .apk 文件 -- 但是用GapDebug就简单多了，GapDebug也提供了大量牛逼的调试工具（尽管如此，如果你在找更高级的调试方法我建议你使用**adb**）。去这个[网站](https://www.genuitec.com/products/gapdebug/)下载和安装GapDebug就可以了。安装完成后，系统托盘上就可以看到了。  
+在你安装好GapDebug之后，先确保通读**GapDebug First-Time Configuration and Setup** -- 因为在让GapDebug和你的iOS或者Android设备正常协作之前有一些事情需要去做。  
+所以东西设置好之后就可以把设备连接到电脑了，打开GapDebug，将应用文件（.ipa或者.apk）通过GapDebug拖放到设备中。这不仅是在设备上安装应用超快的途径同时他给你提供了一些非常有用的调试工具（实际是跟你已经熟悉了的浏览器调试工具一样的）。一旦通过GapDebug安装好了你的应用，直接在GapDebug里面点击应用就可以调出调试工具了。  
