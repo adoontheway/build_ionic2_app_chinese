@@ -73,7 +73,7 @@
 * [-- 准备素材](chapter8/8.1.md)
 * [-- 在Mac或者PC上为iOS应用签名](chapter8/8.2.md)
 * [-- 在Mac或者PC上为Android应用签名](chapter8/8.3.md)
-* [-- 使用PhoneGap构建程序构建iOS和Android（除MAC外）](chapter8/8.4.md)
+* [-- 使用PhoneGap构建程序构建iOS和Android（无MAC）](chapter8/8.4.md)
 * [-- 提交到Apple App Store](chapter8/8.5.md)
 * [-- 提交到Google Play](chapter8/8.6.md)
 * [-- 在App商店上进行更新](chapter8/8.7.md)
